@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Set your desired background color */
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make the wrapper take the full viewport height */
+}
+
+#chatbox {
+  flex: 1; /* Allow the chatbox to expand and fill the available space */
+  background-color: #fff; /* Set your desired chatbox background color */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 10px;
+  overflow-y: auto; /* Add a scrollbar if content overflows */
+}
+
+input[type="text"] {
+  width: 94%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid rgb(0, 132, 255);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Set your desired button background color */
+  color: #fff; /* Set text color for the button */
+  border: none;
+  cursor: pointer;
+}
+
+/* Message styles */
+.user {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.bot {
+  background-color: #00b7ff8c;
+  color: #333;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 80%;
+  word-wrap: break-word;
+}
