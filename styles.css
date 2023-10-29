@@ -27,7 +27,7 @@ body {
 }
 
 input[type="text"] {
-  width: 94%;
+  width: 90%;
   padding: 10px;
   margin-right: 10px;
   border: 2px solid rgb(0, 132, 255);
